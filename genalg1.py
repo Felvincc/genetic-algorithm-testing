@@ -23,7 +23,7 @@ for s in range(1000):
                        random.uniform(0,10000)))
 
 
-for i in range(1000):
+for i in range(1600):
 
     rankedsolutions = []
 
@@ -44,7 +44,6 @@ for i in range(1000):
 
     for s in bestsolutions:
 
-
         elements.append((s[1][0]))
         elements.append((s[1][1]))
         elements.append((s[1][2]))
@@ -53,7 +52,7 @@ for i in range(1000):
 
 
     newGen =[]
-    for _ in range(1000):
+    for _ in range(1600):
         e1 = random.choice(elements) * random.uniform(0.99,1.01)
         e2 = random.choice(elements) * random.uniform(0.99,1.01)
         e3 = random.choice(elements) * random.uniform(0.99,1.01)
