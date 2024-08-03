@@ -104,7 +104,6 @@ def evaluator(chromo):
 
     return fitness_score
 
-
 def create_population():
 
     list_population =[]
@@ -125,9 +124,26 @@ def create_population():
     return tuple_population
 
 
-initial_generation = create_population()
+def mutation():
+    pass
+
+def start()
+
+    chosen_ones=[]
+
+    initial_generation = create_population()
+
+    best_solutions = initial_generation[:4]
+
+    for s in best_solutions:
+
+        chosen_ones.append(s[1])
+
+    print(chosen_ones)
 
 
+
+start()
 
 
 '''
